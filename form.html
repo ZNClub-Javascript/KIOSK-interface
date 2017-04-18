@@ -3,13 +3,13 @@
 <body>
 
   <form>
-    <h1>KARNATAKA STATE ROAD TRANSPORT CORPORATION</h1>
+    <h1>MAHARASHTRA STATE ROAD TRANSPORT CORPORATION</h1>
 
     <div class="contentform">
       <div id="sendmessage"> Your message has been sent successfully. Thank you. </div>
       <div class="leftcontact">
         <div class="form-group">
-          <p>Name <span>*</span></p>
+          <p>Date <span>*</span></p>
           <input type="text" name="prenom" id="prenom" data-rule="required" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Prénom' doit être renseigné." />
           <div class="validation"></div>
         </div>
@@ -41,10 +41,11 @@
           <input type="text" name="phone" id="phone" data-rule="maxlen:10" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Téléphone' doit être renseigné. Minimum 10 chiffres" />
           <div class="validation"></div>
         </div>
-        <p>Type of Travel<span>*</span></p>
+        <p>Type of Bus<span>*</span></p>
         <select class="dropbtn" ng-model="companyName" ng-options='x for x in companies'>
-            <option>Mumbai</option>
-            <option>Pune</option>
+            <option>Sleeper</option>
+            <option>A/C</option>
+			<option>Non A/C</option>
           </select>
           <div class="validation"></div>
         </div>

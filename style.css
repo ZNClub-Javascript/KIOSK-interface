@@ -30,7 +30,7 @@ form h1 {
 
 form {
   border-radius: 5px;
-  max-width: 700px;
+  /*max-width: 700px;*/
   width: 100%;
   margin: 5% auto;
   background-color: #FFFFFF;
@@ -120,6 +120,7 @@ i {
   background-color: #81BDA4;
   color: #FFF;
   text-align: center;
+/*  max-width: 700px;*/
   width: 100%;
   border: 0;
   padding: 17px 25px;
@@ -127,6 +128,7 @@ i {
   cursor: pointer;
   margin-top: 40px;
   font-size: 18px;
+  overflow: hidden;
 }
 
 .leftcontact {

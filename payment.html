@@ -1,0 +1,43 @@
+
+<head><link rel="stylesheet" href="style.css"></head>
+<body>
+
+  <form>
+    <h1>MAHARASHTRA STATE ROAD TRANSPORT CORPORATION</h1>
+
+    <div class="contentform">
+      
+      
+      
+        <div class="form-group">
+          <p>Name <span>*</span></p>
+          <input type="text" name="ville" id="ville" data-rule="required" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Ville' doit être renseigné." />
+          <div class="validation"></div>
+        </div>
+        <div class="form-group">
+          <p>Phone Number<span>*</span></p>
+          <input type="text" name="phone" id="phone" data-rule="maxlen:10" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Téléphone' doit être renseigné. Minimum 10 chiffres" />
+          <div class="validation"></div>
+        </div>
+        <p>Type of E-Payment<span>*</span></p>
+        <select class="dropbtn" ng-model="companyName" ng-options='x for x in companies'>
+            <option>PayTM</option>
+            <option>Aadhaar Pay</option>
+			<option>Mobikwik</option>
+          </select>
+          <div class="validation"></div>
+        </div>
+        
+      
+    </div>
+    </form>
+    <div style="text-align: center;">    
+    <h4>FARE:<i>400 Rs</i></h4>
+
+    </div>
+    <button type="submit" class="bouton-contact">PROCEED TO VIEW SCHEDULE</button>
+
+  
+
+
+</body>
